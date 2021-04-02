@@ -20,9 +20,14 @@ public class HandlerInitializer extends ChannelInitializer<SocketChannel> {
 //        从channel获取pipeline
         ChannelPipeline pipeline = ch.pipeline();
 //        将HttpServerCodec处理器放入到pipeline的最后
+        /*
+        * HttpServerCodec是什么？是HttpRequestDecoder, HttpResponseEncoder的复合体
+        * HttpRequestDecoder：http请求解码器，将channel中的bytebuf数据解码为httpResquest对象
+        * HttpResponseEncoder：http响应解码器，将HTTPResponse对象编码为将要在channel中发送的bytebuf数据
+        * */
         pipeline.addLast("HttpServerCodec",new HttpServerCodec());
         pipeline.addLast(new HttpServerCodec());
 //        将自定义的处理器放入到pipeline的最后
-        pipeline.addLast(null);
+        pipeline.addLast(new CostumerServerHandler());
     }
 }

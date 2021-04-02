@@ -1,5 +1,7 @@
 package com.vincent.server;
 
+import com.vincent.handler.CostumerServerHandler;
+import com.vincent.handler.HandlerInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
@@ -27,7 +29,7 @@ public class ServerStrap {
 //                指定处理器 ---》 对应的是bossGroup
 //                .handler()
 //                指定处理器 ---》 对应的是workerGroup中的eventLoop所绑定的线程所要处理的处理器
-                    .childHandler(null);
+                    .childHandler(new HandlerInitializer());
             /*
               指定当前服务器所监听的端口号
               bind()方法的执行是异步的
