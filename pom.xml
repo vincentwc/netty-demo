@@ -16,6 +16,9 @@
         <module>05-websocket</module>
         <module>06-webchat</module>
         <module>07-idle</module>
+        <module>10-rpc-server</module>
+        <module>11-rpc-client</module>
+        <module>12-rpc-api</module>
     </modules>
 
     <name>netty-demo</name>
