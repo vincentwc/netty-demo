@@ -8,3 +8,17 @@
 /03-socket/target/classes/com/vincent/ServerStrap$1.class
 /01-primary/target/classes/com/vincent/server/ServerStrap.class
 /03-socket/target/classes/com/vincent/ServerStrap.class
+/06-webchat/target/classes/com/vincent/client/ClientHandler.class
+/04-stickybag/target/classes/com/vincent/ClientStrap$1.class
+/06-webchat/target/classes/com/vincent/client/ClientStrap$1.class
+/07-idle/target/classes/com/vincent/client/ClientStrap$1.class
+/06-webchat/target/classes/com/vincent/client/ClientStrap.class
+/07-idle/target/classes/com/vincent/server/ServerHandler$1.class
+/06-webchat/target/classes/com/vincent/server/ServerHandler.class
+/04-stickybag/target/classes/com/vincent/ServerStrap$1.class
+/06-webchat/target/classes/com/vincent/server/ServerStrap$1.class
+/07-idle/target/classes/com/vincent/server/ServerStrap$1.class
+/06-webchat/target/classes/com/vincent/server/ServerStrap.class
+/05-websocket/target/classes/com/vincent/SomeServer$1.class
+/05-websocket/target/classes/com/vincent/SomeServer.class
+/05-websocket/target/classes/com/vincent/SomeServerHandler.class
