@@ -19,6 +19,9 @@
         <module>10-rpc-server</module>
         <module>11-rpc-client</module>
         <module>12-rpc-api</module>
+        <module>13-dubbo-api</module>
+        <module>13-dubbo-server</module>
+        <module>13-dubbo-client</module>
     </modules>
 
     <name>netty-demo</name>
